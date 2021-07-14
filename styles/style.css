@@ -86,11 +86,29 @@ p{
 .automatic-fixture{
     margin-right: 30px;
 }
-
 .web-video video{
     width: 550px;
     height: 450px;
 }
-
-
 /* botton section end */
+
+
+
+
+
+/* Footer styles start */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.media-logo .icon{
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 32px;
+    height: 32px;
+}
+.footer-detail{
+    margin-left: 300px;
+}
