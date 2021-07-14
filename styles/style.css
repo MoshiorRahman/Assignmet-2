@@ -1,7 +1,8 @@
 
 
-/* common style */
-.container{
+/* section-1 styles */
+
+.section-1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,21 +11,47 @@
     width: 1440px;
     height: 677px;
 }
-h2{
+h1{
     color: #FFFFFF;
     font-size: 64px;
     line-height: 80px;
 }
 .copa-contains{
-    margin-right: 102px;
+    margin-right: 102px ;
 }
-.copa-contains .watch-button button{
+.watch-button button{
     color: #FFFFFF;
     background-color: #E02C6D;
     width: 168px;
     height: 44px;
 }
+.watch-button button:hover{
+    background-color: #f34814;
+}
 .copa-img img{
     width: 556.01px;
     height: 438px;
+}
+
+/* section-2 styles */
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 70px;
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+}
+.player-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center
+    width: 330px;
+    height: 474px;
+    padding:60px 30px;
+}
+.player-detail{
+    display: flex;
+    flex-wrap: wrap;
 }
