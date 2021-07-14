@@ -1,6 +1,19 @@
+/* common styles star */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 80px;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+}
+/* common styles end */
 
-
-/* section-1 styles */
+/* top section styles start */
 
 .top-section{
     display: flex;
@@ -12,15 +25,7 @@
     height: 677px;
     margin-bottom: 35px;
 }
-h1{
-    color: #FFFFFF;
-    font-size: 64px;
-    line-height: 80px;
-}
-p{
-    font-size: 16px;
-    font-weight: normal;
-}
+
 .copa-contains{
     margin-right: 102px ;
 }
@@ -37,8 +42,9 @@ p{
     width: 556.01px;
     height: 438px;
 }
+/* top section styles end */
 
-/* section-2 styles */
+/* middle section styles start */
 .middle-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -62,3 +68,4 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
+/* middle section styles end */
